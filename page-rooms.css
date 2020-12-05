@@ -1,0 +1,259 @@
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background: url("rooms.jpg");
+    background-size: cover; 
+}
+
+.content-header .menu {
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-header .menu ul {
+    list-style: none;
+}
+
+.content-header .menu ul li {
+    display: inline;
+
+}
+
+.content-header .menu ul li a {
+    padding: 2px 20px;
+    display: inline-block;
+    color: black;
+
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.content-header .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+} 
+
+main .content-main .textArea h1 {
+    font-size: 2rem;
+    
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 800;
+    font-style: normal;
+
+    margin: 50px;
+}
+
+main .content-main .textArea p {
+    font-size: 1rem;
+
+    width: 60vw;
+}
+
+/* Quaro simples */
+
+main .content-main .single-rooms {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+   
+
+    margin: 50px;
+
+    width: 80vw;
+    height: 120vh;
+}
+
+main .content-main .single-rooms img {
+    background-image: cover;
+
+    width: 70vw;
+    height: 100vh;
+}
+
+main .content-main .single-rooms h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+
+    width: 70vw;
+
+    color: white;
+    
+    padding: 20px 0; 
+
+    background-color: #14274A;
+
+    overflow: hidden;
+}
+
+main .content-main .single-rooms .details {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 69.7vw;
+    height: 20vh;
+
+
+    border: 2px solid #14274A;
+    border-radius: 0 0 10px 10px;
+}
+
+main .content-main .single-rooms .details .price p {
+    padding: 20px 35px;
+    color: white;
+    
+    font-weight: 600;
+
+    border-radius: 10px;
+
+    background-color: #E0B973;
+}
+
+/* Quaro de casal */
+
+main .content-main .double-rooms {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+   
+
+    margin: 50px;
+
+    width: 80vw;
+    height: 120vh;
+}
+
+main .content-main .double-rooms img {
+    background-image: cover;
+
+    width: 70vw;
+}
+
+main .content-main .double-rooms h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+
+    width: 70vw;
+
+    color: white;
+    
+    padding: 20px 0; 
+    margin-top: -25px;
+
+    background-color: #14274A;
+
+    overflow: hidden;
+}
+
+main .content-main .double-rooms .details {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 69.7vw;
+    height: 20vh;
+
+    border: 2px solid #14274A;
+    border-radius: 0 0 10px 10px;
+}
+
+main .content-main .double-rooms .details .price p {
+    padding: 20px 35px;
+    color: white;
+    
+    font-weight: 600;
+
+    border-radius: 10px;
+
+    background-color: #E0B973;
+}
+
+/* Quarto para tres */
+
+main .content-main .twin-rooms {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+   
+
+    margin: 50px;
+
+    width: 80vw;
+    height: 120vh;
+}
+
+main .content-main .twin-rooms img {
+    background-image: cover;
+
+    width: 70vw;
+}
+
+main .content-main .twin-rooms h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+
+    width: 70vw;
+
+    color: white;
+    
+    padding: 20px 0; 
+    margin-top: -25px;
+
+    background-color: #14274A;
+
+    overflow: hidden;
+}
+
+main .content-main .twin-rooms .details {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 69.7vw;
+    height: 20vh;
+
+    border: 2px solid #14274A;
+    border-radius: 0 0 10px 10px;
+}
+
+main .content-main .twin-rooms .details .price p {
+    padding: 20px 35px;
+    color: white;
+    
+    font-weight: 600;
+
+    border-radius: 10px;
+
+    background-color: #E0B973;
+}
